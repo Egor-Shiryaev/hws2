@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Egor-Shiryaev/hws2/static/css/main.131eee3e.css",
+    "main.js": "/Egor-Shiryaev/hws2/static/js/main.d94a7d06.js",
+    "static/js/787.66cb4309.chunk.js": "/Egor-Shiryaev/hws2/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/Egor-Shiryaev/hws2/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/Egor-Shiryaev/hws2/index.html",
+    "main.131eee3e.css.map": "/Egor-Shiryaev/hws2/static/css/main.131eee3e.css.map",
+    "main.d94a7d06.js.map": "/Egor-Shiryaev/hws2/static/js/main.d94a7d06.js.map",
+    "787.66cb4309.chunk.js.map": "/Egor-Shiryaev/hws2/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.131eee3e.css",
+    "static/js/main.d94a7d06.js"
+  ]
+}
