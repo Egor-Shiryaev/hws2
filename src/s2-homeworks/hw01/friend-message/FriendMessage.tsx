@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './FriendMessage.module.css'
 
-type FriendMessageType={
+type FriendMessageType = {
     message: {
         id: number
     }
@@ -18,16 +18,16 @@ const FriendMessage = (props: FriendMessageType) => {
                 <img
                     id={'hw1-friend-avatar-' + props.message.id}
                     // создаёт студент
-
+                    src="https://holst25.ru/wp-content/uploads/2017/06/1112-770x924.jpg"
                     //
                 />
-                <div className={s.friendText}>
+                <div className={s.friendText }>
                     <div
                         id={'hw1-friend-name-' + props.message.id}
                         className={s.friendName}
                     >
                         {/*создаёт студент*/}
-
+                        Маша
                         {/**/}
                     </div>
                     <pre
@@ -35,7 +35,7 @@ const FriendMessage = (props: FriendMessageType) => {
                         className={s.friendMessageText}
                     >
                         {/*создаёт студент*/}
-
+                        Привет, Иван! Как дела?
                         {/**/}
                     </pre>
                 </div>
@@ -45,7 +45,7 @@ const FriendMessage = (props: FriendMessageType) => {
                 className={s.friendTime}
             >
                 {/*создаёт студент*/}
-
+                22:20
                 {/**/}
             </div>
         </div>
